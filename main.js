@@ -59,7 +59,7 @@ Array(200).fill().forEach(addStar)
 
 //add texture to Background
 const spaceTexture = new THREE.TextureLoader().load('./space.jpeg')
-scene.background = spaceTexture;
+// scene.background = spaceTexture;
 
 // Avatar
 const legoTexture = new THREE.TextureLoader().load('./lego2.gif');
