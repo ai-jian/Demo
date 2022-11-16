@@ -1,0 +1,89 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(238, 227, 18, 0.904);
+  --spacing: 500px;
+
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: rgb(89, 84, 208);
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  
+}
+
+h1, h2, h3, blockquote {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+  header {
+    background: var(--dark-bg);
+    grid-column: 2 / span 5;
+    font-size: 2.5rem;
+    padding: 0rem 4rem 2rem 6rem;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+  }
+  small {
+    font-size:.5em;
+    text-align: center;
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    background: var(--dark-bg);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+    border-radius: 20px;
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+    max-width: 700px;
+  }
+
+  blockquote p {
+    color: rgb(255, 255, 255);
+    /* background-color: white; */
+    font-size: 4rem;
+    display: inline;
+    line-height: 1.5;
+  }
+
+  .left {
+    grid-column: 6 / 12;
+  }
